@@ -66,9 +66,10 @@
         else 
         {
           $showErr = true; 
-          echo ' <div class="alert-danger" id="myAlert">
-          <strong>Error!</strong> Invalid Credentials
-          </div>';
+          echo ' <div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert">
+          <strong>Error !</strong> Invalid Credentials
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>';
           // header("Location: login.php");
         }
       }
@@ -76,8 +77,8 @@
       else 
       {
         $showErr = true; 
-        echo ' <div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert">
-        <strong>Error !</strong> Invalid Credentials
+        echo ' <div class="alert alert-primary alert-dismissible fade show fixed-top" role="alert">
+        <strong>Error !</strong> There is a problem in server
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>';
         // header("Location: login.php");
