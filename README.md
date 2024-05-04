@@ -21,6 +21,7 @@ it checks for username availability and confirm password chekcing in realtime
 - Install xampp
 - open MySql admin to open phpMyadmin in your browser
 - now in the import section browse/drag users.sql file to create the database
+- if import does not work manually make the db table provided in the image
 
     
 ## Authors
