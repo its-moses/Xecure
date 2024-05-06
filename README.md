@@ -1,8 +1,8 @@
 
 # Xecure 
 
-This is a signup/login form made by scratch by me 
-it checks for username availability and confirm password chekcing in realtime 
+This is a signup/login form made from scratch by me 
+it checks for username availability in realtime 
 
 
 ## Language Used
